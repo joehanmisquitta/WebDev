@@ -1,0 +1,32 @@
+Install node.js: https://nodejs.org/en/
+
+After downloading, just keep pressing next until it’s installed.
+
+Install React.js: https://github.com/facebook/create-react-app
+
+Select Download.zip and extract to your desired location
+
+Then open up Node.js command prompt.
+
+cd create-react-app-main
+
+Note: -g = install Globally on your machine
+
+npm install -g npm@8.19.2 <-- change to the latest available version
+
+npm install create-react-app -g
+
+create-react-app --version
+
+cd WebDev <-- Change to anything
+
+create-react-app firstapp <-- Can Change Name of Project file 
+
+cd firstapp <-- Change dir to your app name
+
+npm start <-- start node.js server and run app
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/joehanmisquitta/WebDev.git
+git push -u origin main
