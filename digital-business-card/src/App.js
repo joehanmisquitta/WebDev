@@ -31,7 +31,8 @@ export default function App() {
         <text className="App-About-Text">About</text>
         <text className="App-About-Para">I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices like OWASP Top 10, and I am always looking for new things to learn.</text>
         <text className="App-Interest-Text">Interests</text>
-        <text className="App-Interest-Para">Gaming. Programming. Music. Photography. Graphics Design. Penetration Testing.  </text>      
+        <text className="App-Interest-Para">Gaming. Programming. Music. Photography. Graphics Design. Penetration Testing.  </text>
+              
       </div>
       <footer className="App-Footer-Social">
         <nav className="Navbar">
