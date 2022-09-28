@@ -2,9 +2,19 @@
 position: absolute;
 width: 550px;
 height: 868px;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);    /* Older Gecko browser */
+-ms-transform: translate(-50%, -50%);     /* IE9+ */
+-o-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+/*
 left: 65px;
 top: 53px;
+*/
 background: #23252C;
+border-radius: 10px 10px 10px 10px;
 }
 
 .Face {  
@@ -158,4 +168,90 @@ border-radius: 6px;
   order: 1;
   flex-grow: 0;
 }
-  
+
+.App-About-Text{
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 36px;
+  top: 174px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  color: #F5F5F5;
+}
+
+.App-About-Para{
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 36px;
+  top: 200px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+  color: #DCDCDC;
+}
+
+
+.App-Interest-Text{
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 36px;
+  top: 288px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  color: #F5F5F5;
+}
+
+.App-Interest-Para{
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 36px;
+  top: 314px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+  color: #DCDCDC;
+}
+
+.App-Footer-Social{
+  position: absolute;
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.Navbar{
+  display: flex;
+  align-items: center;
+  padding: 30px 25px;
+  height: 5px;
+}
+.Navbar > img{
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
