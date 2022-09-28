@@ -18,7 +18,7 @@ npm install create-react-app -g
 
 create-react-app --version
 
-cd WebDev <-- Change to anything
+cd C:\Users\joeha\OneDrive\Desktop\WebDev <-- Change to anything
 
 create-react-app firstapp <-- Can Change Name of Project file 
 
