@@ -35,9 +35,15 @@ export default function App() {
       </div>
       <footer className="App-Footer-Social">
         <nav className="Navbar">
-          <img src={facebook} className="F-Facebook" alt="Facebook" href="https://www.facebook.com/profile.php?id=100076309787802" target="_blank" rel="noreferrer"/>
-          <img src={github} className="F-Github" alt="Github"/>
-          <img src={twitter} classname="F-Twitter" alt="Twitter"/>
+          <a classname="F-Facbook" href="https://www.facebook.com/profile.php?id=100076309787802" target="_blank" rel="noreferrer"> 
+            <img src={facebook} className="F-Facebook" alt="Facebook"/>
+          </a>
+          <a classname="F-Github" href="https://github.com/joehanmisquitta" target="_blank" rel="noreferrer">
+            <img src={github} className="F-Github" alt="Github"/>
+          </a>
+          <a classname="F-Twitter" href="https://twitter.com/MisquittaJoehan" target="_blank" rel="noreferrer">
+            <img src={twitter} classname="F-Twitter" alt="Twitter"/>
+          </a>
         </nav>
       </footer>
     </div>
