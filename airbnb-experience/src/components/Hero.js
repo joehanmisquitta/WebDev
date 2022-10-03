@@ -1,5 +1,5 @@
-import React from "react"
-import Group from "../images/Grouphero.svg"
+import React from "react";
+import Group from "../images/Grouphero.svg";
 
 export default function Hero(){
     return(
