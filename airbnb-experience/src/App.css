@@ -1,0 +1,33 @@
+
+.navbar{
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.navbarlogo{
+  max-width: 150px;
+  width: 14%;
+}
+
+.hero{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-photo{
+  max-width: 1000px;
+  height: auto;
+  width: 80%;
+  align-self: center;
+}
+
+.hero-title{
+  margin-bottom: 16px;
+}
+
+.hero-text{
+  margin-top: 0;
+}
